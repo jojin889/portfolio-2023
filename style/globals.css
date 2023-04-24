@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  /* border: 1px solid red; */
+}
+
+body {
+  color: #FFFFFF;
+  background: #111111;
+}
+
+ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #EE7813;
+    transition: width .3s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
