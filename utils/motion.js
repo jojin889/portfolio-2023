@@ -17,7 +17,7 @@ export const TypingText = ({ title }) => (
 export const navVariants1 = {
     hidden: {
       opacity: 0,
-      y: -150,
+      y: 0,
       transition: {
       },
     },

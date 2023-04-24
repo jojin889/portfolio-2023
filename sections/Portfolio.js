@@ -29,34 +29,34 @@ const Portfolio = () => {
         viewport={{ once: true }}
       >
         <div>
-          <ul className="flex lg:flex lg:flex-row justify-center lg:m-16 lg:text-center">
+          <ul className="flex lg:flex lg:flex-row justify-center m-0 lg:m-16 lg:text-center">
             <li
               onClick={(e) => handleClick("all")}
-              className="m-5 cursor-pointer"
+              className="m-3 lg:m-5 cursor-pointer"
             >
               All
             </li>
             <li
               onClick={(e) => handleClick("react")}
-              className="m-5 cursor-pointer"
+              className="m-3 lg:m-5 cursor-pointer"
             >
               React
             </li>
             <li
               onClick={(e) => handleClick("tailwind")}
-              className="m-5 cursor-pointer"
+              className="m-3 lg:m-5 cursor-pointer"
             >
               Tailwind
             </li>
             <li
               onClick={(e) => handleClick("sanity")}
-              className="m-5 cursor-pointer"
+              className="m-3 lg:m-5 cursor-pointer"
             >
               Sanity
             </li>
             <li
               onClick={(e) => handleClick("next")}
-              className="m-5 cursor-pointer"
+              className="m-3 lg:m-5 cursor-pointer"
             >
               Next
             </li>

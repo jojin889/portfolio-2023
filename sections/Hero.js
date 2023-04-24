@@ -10,7 +10,7 @@ const Hero = () => {
     <div>
       <Navbar />
       <motion.div variants={navVariants2} initial="hidden" whileInView="show">
-        <div className="mt-[9%] ml-[19%]">
+        <div className="mt-[250px] lg:mt-[9%] ml-[19%]">
           <h1 className="text-5xl md:text-5xl lg:text-7xl">Jonathan</h1>
           <h1 className="text-5xl md:text-5xl lg:text-7xl text-primary-orange">Web developer</h1>
         </div>

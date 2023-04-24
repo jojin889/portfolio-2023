@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="h-[78vh]">
+    <div className="h-[100vh] lg:h-[78vh]">
       <h1
         id="contact"
         className="text-5xl text-center mt-28 mb-16 relative before:absolute before:center before:bottom-[-10px] before:h-[5px] before:translate-x-[-6%] before:w-[60px] before:bg-[#ee7813] after:absolute after:bottom-[-8px] after:translate-x-[-98%] after:h-[1px] after:w-[210px] after:bg-[#ee7813]"
@@ -49,7 +49,7 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <div className="text-center mt-14 lg:mt-0">
+        <div className="text-center my-14 lg:mt-0">
           <form
             className=""
             autoComplete="off"
