@@ -116,9 +116,17 @@ const Contact = () => {
                 Envoyer →
               </span>
             </button>
-            <div></div>
           </form>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <a
+          href="cv.pdf"
+          download="CV_jonathan_theron"
+          className=" text-black box-shadow1 text-[25px] py-2 px-4 bg-[#EE7813] rounded-[32px]"
+        >
+          Télécharger mon CV
+        </a>
       </div>
     </div>
   );
